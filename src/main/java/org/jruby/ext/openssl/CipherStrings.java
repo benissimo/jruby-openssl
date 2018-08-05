@@ -43,96 +43,6 @@ import java.util.Set;
  */
 public class CipherStrings {
 
-    public final static String SSL2_TXT_DES_64_CFB64_WITH_MD5_1 = "DES-CFB-M1";
-    public final static String SSL2_TXT_NULL_WITH_MD5 = "NULL-MD5";
-    public final static String SSL2_TXT_RC4_128_WITH_MD5 = "RC4-MD5";
-    public final static String SSL2_TXT_RC4_128_EXPORT40_WITH_MD5 = "EXP-RC4-MD5";
-    public final static String SSL2_TXT_RC2_128_CBC_WITH_MD5 = "RC2-CBC-MD5";
-    public final static String SSL2_TXT_RC2_128_CBC_EXPORT40_WITH_MD5 = "EXP-RC2-CBC-MD5";
-    public final static String SSL2_TXT_IDEA_128_CBC_WITH_MD5 = "IDEA-CBC-MD5";
-    public final static String SSL2_TXT_DES_64_CBC_WITH_MD5 = "DES-CBC-MD5";
-    public final static String SSL2_TXT_DES_64_CBC_WITH_SHA = "DES-CBC-SHA";
-    public final static String SSL2_TXT_DES_192_EDE3_CBC_WITH_MD5 = "DES-CBC3-MD5";
-    public final static String SSL2_TXT_DES_192_EDE3_CBC_WITH_SHA = "DES-CBC3-SHA";
-    public final static String SSL2_TXT_RC4_64_WITH_MD5 = "RC4-64-MD5";
-    public final static String SSL2_TXT_NULL = "NULL";
-
-    public final static String SSL3_TXT_RSA_NULL_MD5 = "NULL-MD5";
-    public final static String SSL3_TXT_RSA_NULL_SHA = "NULL-SHA";
-    public final static String SSL3_TXT_RSA_RC4_40_MD5 = "EXP-RC4-MD5";
-    public final static String SSL3_TXT_RSA_RC4_128_MD5 = "RC4-MD5";
-    public final static String SSL3_TXT_RSA_RC4_128_SHA = "RC4-SHA";
-    public final static String SSL3_TXT_RSA_RC2_40_MD5 = "EXP-RC2-CBC-MD5";
-    public final static String SSL3_TXT_RSA_IDEA_128_SHA = "IDEA-CBC-SHA";
-    public final static String SSL3_TXT_RSA_DES_40_CBC_SHA = "EXP-DES-CBC-SHA";
-    public final static String SSL3_TXT_RSA_DES_64_CBC_SHA = "DES-CBC-SHA";
-    public final static String SSL3_TXT_RSA_DES_192_CBC3_SHA = "DES-CBC3-SHA";
-    public final static String SSL3_TXT_DH_DSS_DES_40_CBC_SHA = "EXP-DH-DSS-DES-CBC-SHA";
-    public final static String SSL3_TXT_DH_DSS_DES_64_CBC_SHA = "DH-DSS-DES-CBC-SHA";
-    public final static String SSL3_TXT_DH_DSS_DES_192_CBC3_SHA = "DH-DSS-DES-CBC3-SHA";
-    public final static String SSL3_TXT_DH_RSA_DES_40_CBC_SHA = "EXP-DH-RSA-DES-CBC-SHA";
-    public final static String SSL3_TXT_DH_RSA_DES_64_CBC_SHA = "DH-RSA-DES-CBC-SHA";
-    public final static String SSL3_TXT_DH_RSA_DES_192_CBC3_SHA = "DH-RSA-DES-CBC3-SHA";
-    public final static String SSL3_TXT_EDH_DSS_DES_40_CBC_SHA = "EXP-EDH-DSS-DES-CBC-SHA";
-    public final static String SSL3_TXT_EDH_DSS_DES_64_CBC_SHA = "EDH-DSS-DES-CBC-SHA";
-    public final static String SSL3_TXT_EDH_DSS_DES_192_CBC3_SHA = "EDH-DSS-DES-CBC3-SHA";
-    public final static String SSL3_TXT_EDH_RSA_DES_40_CBC_SHA = "EXP-EDH-RSA-DES-CBC-SHA";
-    public final static String SSL3_TXT_EDH_RSA_DES_64_CBC_SHA = "EDH-RSA-DES-CBC-SHA";
-    public final static String SSL3_TXT_EDH_RSA_DES_192_CBC3_SHA = "EDH-RSA-DES-CBC3-SHA";
-    public final static String SSL3_TXT_ADH_RC4_40_MD5 = "EXP-ADH-RC4-MD5";
-    public final static String SSL3_TXT_ADH_RC4_128_MD5 = "ADH-RC4-MD5";
-    public final static String SSL3_TXT_ADH_DES_40_CBC_SHA = "EXP-ADH-DES-CBC-SHA";
-    public final static String SSL3_TXT_ADH_DES_64_CBC_SHA = "ADH-DES-CBC-SHA";
-    public final static String SSL3_TXT_ADH_DES_192_CBC_SHA = "ADH-DES-CBC3-SHA";
-    public final static String SSL3_TXT_FZA_DMS_NULL_SHA = "FZA-NULL-SHA";
-    public final static String SSL3_TXT_FZA_DMS_FZA_SHA = "FZA-FZA-CBC-SHA";
-    public final static String SSL3_TXT_FZA_DMS_RC4_SHA = "FZA-RC4-SHA";
-    public final static String SSL3_TXT_KRB5_DES_64_CBC_SHA = "KRB5-DES-CBC-SHA";
-    public final static String SSL3_TXT_KRB5_DES_192_CBC3_SHA = "KRB5-DES-CBC3-SHA";
-    public final static String SSL3_TXT_KRB5_RC4_128_SHA = "KRB5-RC4-SHA";
-    public final static String SSL3_TXT_KRB5_IDEA_128_CBC_SHA = "KRB5-IDEA-CBC-SHA";
-    public final static String SSL3_TXT_KRB5_DES_64_CBC_MD5 = "KRB5-DES-CBC-MD5";
-    public final static String SSL3_TXT_KRB5_DES_192_CBC3_MD5 = "KRB5-DES-CBC3-MD5";
-    public final static String SSL3_TXT_KRB5_RC4_128_MD5 = "KRB5-RC4-MD5";
-    public final static String SSL3_TXT_KRB5_IDEA_128_CBC_MD5 = "KRB5-IDEA-CBC-MD5";
-    public final static String SSL3_TXT_KRB5_DES_40_CBC_SHA = "EXP-KRB5-DES-CBC-SHA";
-    public final static String SSL3_TXT_KRB5_RC2_40_CBC_SHA = "EXP-KRB5-RC2-CBC-SHA";
-    public final static String SSL3_TXT_KRB5_RC4_40_SHA = "EXP-KRB5-RC4-SHA";
-    public final static String SSL3_TXT_KRB5_DES_40_CBC_MD5 = "EXP-KRB5-DES-CBC-MD5";
-    public final static String SSL3_TXT_KRB5_RC2_40_CBC_MD5 = "EXP-KRB5-RC2-CBC-MD5";
-    public final static String SSL3_TXT_KRB5_RC4_40_MD5 = "EXP-KRB5-RC4-MD5";
-
-    public final static String SSL_TXT_NULL_WITH_MD5 = SSL2_TXT_NULL_WITH_MD5;
-    public final static String SSL_TXT_RC4_128_WITH_MD5 = SSL2_TXT_RC4_128_WITH_MD5;
-    public final static String SSL_TXT_RC4_128_EXPORT40_WITH_MD5 =
-        SSL2_TXT_RC4_128_EXPORT40_WITH_MD5;
-    public final static String SSL_TXT_RC2_128_CBC_WITH_MD5 = SSL2_TXT_RC2_128_CBC_WITH_MD5;
-    public final static String SSL_TXT_RC2_128_CBC_EXPORT40_WITH_MD5 =
-        SSL2_TXT_RC2_128_CBC_EXPORT40_WITH_MD5;
-    public final static String SSL_TXT_IDEA_128_CBC_WITH_MD5 = SSL2_TXT_IDEA_128_CBC_WITH_MD5;
-    public final static String SSL_TXT_DES_64_CBC_WITH_MD5 = SSL2_TXT_DES_64_CBC_WITH_MD5;
-    public final static String SSL_TXT_DES_64_CBC_WITH_SHA = SSL2_TXT_DES_64_CBC_WITH_SHA;
-    public final static String SSL_TXT_DES_192_EDE3_CBC_WITH_MD5 =
-        SSL2_TXT_DES_192_EDE3_CBC_WITH_MD5;
-    public final static String SSL_TXT_DES_192_EDE3_CBC_WITH_SHA =
-        SSL2_TXT_DES_192_EDE3_CBC_WITH_SHA;
-
-    public final static String SSL_TXT_KRB5_DES_64_CBC_SHA = SSL3_TXT_KRB5_DES_64_CBC_SHA;
-    public final static String SSL_TXT_KRB5_DES_192_CBC3_SHA = SSL3_TXT_KRB5_DES_192_CBC3_SHA;
-    public final static String SSL_TXT_KRB5_RC4_128_SHA = SSL3_TXT_KRB5_RC4_128_SHA;
-    public final static String SSL_TXT_KRB5_IDEA_128_CBC_SHA = SSL3_TXT_KRB5_IDEA_128_CBC_SHA;
-    public final static String SSL_TXT_KRB5_DES_64_CBC_MD5 = SSL3_TXT_KRB5_DES_64_CBC_MD5;
-    public final static String SSL_TXT_KRB5_DES_192_CBC3_MD5 = SSL3_TXT_KRB5_DES_192_CBC3_MD5;
-    public final static String SSL_TXT_KRB5_RC4_128_MD5 = SSL3_TXT_KRB5_RC4_128_MD5;
-    public final static String SSL_TXT_KRB5_IDEA_128_CBC_MD5 = SSL3_TXT_KRB5_IDEA_128_CBC_MD5;
-
-    public final static String SSL_TXT_KRB5_DES_40_CBC_SHA = SSL3_TXT_KRB5_DES_40_CBC_SHA;
-    public final static String SSL_TXT_KRB5_RC2_40_CBC_SHA = SSL3_TXT_KRB5_RC2_40_CBC_SHA;
-    public final static String SSL_TXT_KRB5_RC4_40_SHA = SSL3_TXT_KRB5_RC4_40_SHA;
-    public final static String SSL_TXT_KRB5_DES_40_CBC_MD5 = SSL3_TXT_KRB5_DES_40_CBC_MD5;
-    public final static String SSL_TXT_KRB5_RC2_40_CBC_MD5 = SSL3_TXT_KRB5_RC2_40_CBC_MD5;
-    public final static String SSL_TXT_KRB5_RC4_40_MD5 = SSL3_TXT_KRB5_RC4_40_MD5;
-
     public final static String SSL_TXT_LOW = "LOW";
     public final static String SSL_TXT_MEDIUM = "MEDIUM";
     public final static String SSL_TXT_HIGH = "HIGH";
@@ -341,43 +251,6 @@ public class CipherStrings {
     public final static long TLS_ECDH_anon_WITH_DES_192_CBC3_SHA = 0x0300C017;
     public final static long TLS_ECDH_anon_WITH_AES_128_CBC_SHA = 0x0300C018;
     public final static long TLS_ECDH_anon_WITH_AES_256_CBC_SHA = 0x0300C019;
-
-    public final static String TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_MD5 = "EXP1024-RC4-MD5";
-    public final static String TLS1_TXT_RSA_EXPORT1024_WITH_RC2_CBC_56_MD5 = "EXP1024-RC2-CBC-MD5";
-    public final static String TLS1_TXT_RSA_EXPORT1024_WITH_DES_CBC_SHA = "EXP1024-DES-CBC-SHA";
-    public final static String TLS1_TXT_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA =
-        "EXP1024-DHE-DSS-DES-CBC-SHA";
-    public final static String TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_SHA = "EXP1024-RC4-SHA";
-    public final static String TLS1_TXT_DHE_DSS_EXPORT1024_WITH_RC4_56_SHA =
-        "EXP1024-DHE-DSS-RC4-SHA";
-    public final static String TLS1_TXT_DHE_DSS_WITH_RC4_128_SHA = "DHE-DSS-RC4-SHA";
-    public final static String TLS1_TXT_RSA_WITH_AES_128_SHA = "AES128-SHA";
-    public final static String TLS1_TXT_DH_DSS_WITH_AES_128_SHA = "DH-DSS-AES128-SHA";
-    public final static String TLS1_TXT_DH_RSA_WITH_AES_128_SHA = "DH-RSA-AES128-SHA";
-    public final static String TLS1_TXT_DHE_DSS_WITH_AES_128_SHA = "DHE-DSS-AES128-SHA";
-    public final static String TLS1_TXT_DHE_RSA_WITH_AES_128_SHA = "DHE-RSA-AES128-SHA";
-    public final static String TLS1_TXT_ADH_WITH_AES_128_SHA = "ADH-AES128-SHA";
-    public final static String TLS1_TXT_RSA_WITH_AES_256_SHA = "AES256-SHA";
-    public final static String TLS1_TXT_DH_DSS_WITH_AES_256_SHA = "DH-DSS-AES256-SHA";
-    public final static String TLS1_TXT_DH_RSA_WITH_AES_256_SHA = "DH-RSA-AES256-SHA";
-    public final static String TLS1_TXT_DHE_DSS_WITH_AES_256_SHA = "DHE-DSS-AES256-SHA";
-    public final static String TLS1_TXT_DHE_RSA_WITH_AES_256_SHA = "DHE-RSA-AES256-SHA";
-    public final static String TLS1_TXT_ADH_WITH_AES_256_SHA = "ADH-AES256-SHA";
-    public final static String TLS1_TXT_ECDH_ECDSA_WITH_NULL_SHA = "ECDH-ECDSA-NULL-SHA";
-    public final static String TLS1_TXT_ECDH_ECDSA_WITH_RC4_128_SHA = "ECDH-ECDSA-RC4-SHA";
-    public final static String TLS1_TXT_ECDH_ECDSA_WITH_DES_192_CBC3_SHA =
-        "ECDH-ECDSA-DES-CBC3-SHA";
-    public final static String TLS1_TXT_ECDHE_ECDSA_WITH_NULL_SHA = "ECDHE-ECDSA-NULL-SHA";
-    public final static String TLS1_TXT_ECDHE_ECDSA_WITH_RC4_128_SHA = "ECDHE-ECDSA-RC4-SHA";
-    public final static String TLS1_TXT_ECDHE_ECDSA_WITH_DES_192_CBC3_SHA =
-        "ECDHE-ECDSA-DES-CBC3-SHA";
-    public final static String TLS1_TXT_ECDH_RSA_WITH_NULL_SHA = "ECDH-RSA-NULL-SHA";
-    public final static String TLS1_TXT_ECDH_RSA_WITH_RC4_128_SHA = "ECDH-RSA-RC4-SHA";
-    public final static String TLS1_TXT_ECDH_RSA_WITH_DES_192_CBC3_SHA = "ECDH-RSA-DES-CBC3-SHA";
-    public final static String TLS1_TXT_ECDHE_RSA_WITH_NULL_SHA = "ECDHE-RSA-NULL-SHA";
-    public final static String TLS1_TXT_ECDHE_RSA_WITH_RC4_128_SHA = "ECDHE-RSA-RC4-SHA";
-    public final static String TLS1_TXT_ECDHE_RSA_WITH_DES_192_CBC3_SHA = "ECDHE-RSA-DES-CBC3-SHA";
-    public final static String TLS1_TXT_ECDH_anon_WITH_NULL_SHA = "AECDH-NULL-SHA";
 
     static final class Def implements Comparable<Def>, Cloneable {
 
@@ -707,7 +580,7 @@ public class CipherStrings {
 
         /* The DH ciphers */
         /* Cipher 0B */
-        CipherNames.put(SSL3_TXT_DH_DSS_DES_40_CBC_SHA, new Def(SSL3_TXT_DH_DSS_DES_40_CBC_SHA,
+        CipherNames.put("EXP-DH-DSS-DES-CBC-SHA", new Def("EXP-DH-DSS-DES-CBC-SHA",
             SSL_kDHd | SSL_aDH | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -716,7 +589,7 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 0C */
-        CipherNames.put(SSL3_TXT_DH_DSS_DES_64_CBC_SHA, new Def(SSL3_TXT_DH_DSS_DES_64_CBC_SHA,
+        CipherNames.put("DH-DSS-DES-CBC-SHA", new Def("DH-DSS-DES-CBC-SHA",
             SSL_kDHd | SSL_aDH | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -725,7 +598,7 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 0D */
-        CipherNames.put(SSL3_TXT_DH_DSS_DES_192_CBC3_SHA, new Def(SSL3_TXT_DH_DSS_DES_192_CBC3_SHA,
+        CipherNames.put("DH-DSS-DES-CBC3-SHA", new Def("DH-DSS-DES-CBC3-SHA",
             SSL_kDHd | SSL_aDH | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -734,7 +607,7 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 0E */
-        CipherNames.put(SSL3_TXT_DH_RSA_DES_40_CBC_SHA, new Def(SSL3_TXT_DH_RSA_DES_40_CBC_SHA,
+        CipherNames.put("EXP-DH-RSA-DES-CBC-SHA", new Def("EXP-DH-RSA-DES-CBC-SHA",
             SSL_kDHr | SSL_aDH | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -743,7 +616,7 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 0F */
-        CipherNames.put(SSL3_TXT_DH_RSA_DES_64_CBC_SHA, new Def(SSL3_TXT_DH_RSA_DES_64_CBC_SHA,
+        CipherNames.put("DH-RSA-DES-CBC-SHA", new Def("DH-RSA-DES-CBC-SHA",
             SSL_kDHr | SSL_aDH | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -752,7 +625,7 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 10 */
-        CipherNames.put(SSL3_TXT_DH_RSA_DES_192_CBC3_SHA, new Def(SSL3_TXT_DH_RSA_DES_192_CBC3_SHA,
+        CipherNames.put("DH-RSA-DES-CBC3-SHA", new Def("DH-RSA-DES-CBC3-SHA",
             SSL_kDHr | SSL_aDH | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -762,7 +635,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 12 */
-        CipherNames.put(SSL3_TXT_EDH_DSS_DES_64_CBC_SHA, new Def(SSL3_TXT_EDH_DSS_DES_64_CBC_SHA,
+        CipherNames.put("EDH-DSS-DES-CBC-SHA", new Def("EDH-DSS-DES-CBC-SHA",
             SSL_kEDH | SSL_aDSS | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -773,7 +646,7 @@ public class CipherStrings {
 
         /* Fortezza */
         /* Cipher 1C */
-        CipherNames.put(SSL3_TXT_FZA_DMS_NULL_SHA, new Def(SSL3_TXT_FZA_DMS_NULL_SHA,
+        CipherNames.put("FZA-NULL-SHA", new Def("FZA-NULL-SHA",
             SSL_kFZA | SSL_aFZA | SSL_eNULL | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_STRONG_NONE,
             0,
@@ -783,7 +656,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 1D */
-        CipherNames.put(SSL3_TXT_FZA_DMS_FZA_SHA, new Def(SSL3_TXT_FZA_DMS_FZA_SHA,
+        CipherNames.put("FZA-FZA-CBC-SHA", new Def("FZA-FZA-CBC-SHA",
             SSL_kFZA | SSL_aFZA | SSL_eFZA | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_STRONG_NONE,
             0,
@@ -793,7 +666,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 1E VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_64_CBC_SHA, new Def(SSL3_TXT_KRB5_DES_64_CBC_SHA,
+        CipherNames.put("KRB5-DES-CBC-SHA", new Def("KRB5-DES-CBC-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -803,7 +676,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 1F VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_192_CBC3_SHA, new Def(SSL3_TXT_KRB5_DES_192_CBC3_SHA,
+        CipherNames.put("KRB5-DES-CBC3-SHA", new Def("KRB5-DES-CBC3-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             112,
@@ -813,7 +686,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 20 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC4_128_SHA, new Def(SSL3_TXT_KRB5_RC4_128_SHA,
+        CipherNames.put("KRB5-RC4-SHA", new Def("KRB5-RC4-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC4 | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -823,7 +696,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 21 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_IDEA_128_CBC_SHA, new Def(SSL3_TXT_KRB5_IDEA_128_CBC_SHA,
+        CipherNames.put("KRB5-IDEA-CBC-SHA", new Def("KRB5-IDEA-CBC-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_IDEA | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -833,7 +706,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 22 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_64_CBC_MD5, new Def(SSL3_TXT_KRB5_DES_64_CBC_MD5,
+        CipherNames.put("KRB5-DES-CBC-MD5", new Def("KRB5-DES-CBC-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_DES | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -843,7 +716,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 23 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_192_CBC3_MD5, new Def(SSL3_TXT_KRB5_DES_192_CBC3_MD5,
+        CipherNames.put("KRB5-DES-CBC3-MD5", new Def("KRB5-DES-CBC3-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_3DES | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             112,
@@ -853,7 +726,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 24 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC4_128_MD5, new Def(SSL3_TXT_KRB5_RC4_128_MD5,
+        CipherNames.put("KRB5-RC4-MD5", new Def("KRB5-RC4-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -863,7 +736,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 25 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_IDEA_128_CBC_MD5, new Def(SSL3_TXT_KRB5_IDEA_128_CBC_MD5,
+        CipherNames.put("KRB5-IDEA-CBC-MD5", new Def("KRB5-IDEA-CBC-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_IDEA | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -873,7 +746,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 26 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_40_CBC_SHA, new Def(SSL3_TXT_KRB5_DES_40_CBC_SHA,
+        CipherNames.put("EXP-KRB5-DES-CBC-SHA", new Def("EXP-KRB5-DES-CBC-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -883,7 +756,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 27 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC2_40_CBC_SHA, new Def(SSL3_TXT_KRB5_RC2_40_CBC_SHA,
+        CipherNames.put("EXP-KRB5-RC2-CBC-SHA", new Def("EXP-KRB5-RC2-CBC-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC2 | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -893,7 +766,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 28 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC4_40_SHA, new Def(SSL3_TXT_KRB5_RC4_40_SHA,
+        CipherNames.put("EXP-KRB5-RC4-SHA", new Def("EXP-KRB5-RC4-SHA",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC4 | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             128,
@@ -903,7 +776,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 29 VRS */
-        CipherNames.put(SSL3_TXT_KRB5_DES_40_CBC_MD5, new Def(SSL3_TXT_KRB5_DES_40_CBC_MD5,
+        CipherNames.put("EXP-KRB5-DES-CBC-MD5", new Def("EXP-KRB5-DES-CBC-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_DES | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -913,7 +786,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 2A VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC2_40_CBC_MD5, new Def(SSL3_TXT_KRB5_RC2_40_CBC_MD5,
+        CipherNames.put("EXP-KRB5-RC2-CBC-MD5", new Def("EXP-KRB5-RC2-CBC-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC2 | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -923,7 +796,7 @@ public class CipherStrings {
         ));
 
         /* Cipher 2B VRS */
-        CipherNames.put(SSL3_TXT_KRB5_RC4_40_MD5, new Def(SSL3_TXT_KRB5_RC4_40_MD5,
+        CipherNames.put("EXP-KRB5-RC4-MD5", new Def("EXP-KRB5-RC4-MD5",
             SSL_kKRB5 | SSL_aKRB5 | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             128,
@@ -934,8 +807,7 @@ public class CipherStrings {
 
         /* New TLS Export CipherSuites */
         /* Cipher 60 */
-        CipherNames.put(TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_MD5,
-            new Def(TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_MD5,
+        CipherNames.put("EXP1024-RC4-MD5", new Def("EXP1024-RC4-MD5",
             SSL_kRSA | SSL_aRSA | SSL_RC4 | SSL_MD5 | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -944,8 +816,8 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
         /* Cipher 61 */
-        CipherNames.put(TLS1_TXT_RSA_EXPORT1024_WITH_RC2_CBC_56_MD5,
-            new Def(TLS1_TXT_RSA_EXPORT1024_WITH_RC2_CBC_56_MD5,
+        CipherNames.put("EXP1024-RC2-CBC-MD5",
+            new Def("EXP1024-RC2-CBC-MD5",
             SSL_kRSA | SSL_aRSA | SSL_RC2 | SSL_MD5 | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -954,14 +826,11 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
 
-        String name;
-
         SuiteToOSSL = new HashMap<String, String>(120, 1);
 
         SuiteToOSSL.put("SSL_RSA_WITH_NULL_MD5", "NULL-MD5");
         SuiteToOSSL.put("TLS_RSA_WITH_NULL_MD5", "NULL-MD5");
-        /* Cipher 01 */
-        CipherNames.put(SSL3_TXT_RSA_NULL_MD5, new Def(SSL3_TXT_RSA_NULL_MD5,
+        CipherNames.put("NULL-MD5", new Def("NULL-MD5",
             SSL_kRSA | SSL_aRSA | SSL_eNULL | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_STRONG_NONE,
             0,
@@ -972,8 +841,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_WITH_NULL_SHA", "NULL-SHA");
         SuiteToOSSL.put("TLS_RSA_WITH_NULL_SHA", "NULL-SHA");
-        /* Cipher 02 */
-        CipherNames.put(SSL3_TXT_RSA_NULL_SHA, new Def(SSL3_TXT_RSA_NULL_SHA,
+        CipherNames.put("NULL-SHA", new Def("NULL-SHA",
             SSL_kRSA | SSL_aRSA | SSL_eNULL | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_STRONG_NONE,
             0,
@@ -985,8 +853,7 @@ public class CipherStrings {
         SuiteToOSSL.put("SSL_RSA_EXPORT_WITH_RC4_40_MD5", "EXP-RC4-MD5");
         SuiteToOSSL.put("TLS_RSA_EXPORT_WITH_RC4_40_MD5", "EXP-RC4-MD5");
         SuiteToOSSL.put("SSL_CK_RC4_128_EXPORT40_WITH_MD5", "EXP-RC4-MD5");
-        /* Cipher 03 */
-        CipherNames.put(SSL3_TXT_RSA_RC4_40_MD5, new Def(SSL3_TXT_RSA_RC4_40_MD5,
+        CipherNames.put("EXP-RC4-MD5", new Def("EXP-RC4-MD5",
             SSL_kRSA | SSL_aRSA | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -998,8 +865,7 @@ public class CipherStrings {
         SuiteToOSSL.put("SSL_RSA_WITH_RC4_128_MD5", "RC4-MD5");
         SuiteToOSSL.put("TLS_RSA_WITH_RC4_128_MD5", "RC4-MD5");
         SuiteToOSSL.put("SSL_CK_RC4_128_WITH_MD5", "RC4-MD5");
-        /* Cipher 04 */
-        CipherNames.put(SSL3_TXT_RSA_RC4_128_MD5, new Def(SSL3_TXT_RSA_RC4_128_MD5,
+        CipherNames.put("RC4-MD5", new Def("RC4-MD5",
             SSL_kRSA | SSL_aRSA | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -1010,8 +876,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_WITH_RC4_128_SHA", "RC4-SHA");
         SuiteToOSSL.put("TLS_RSA_WITH_RC4_128_SHA", "RC4-SHA");
-        /* Cipher 05 */
-        CipherNames.put(SSL3_TXT_RSA_RC4_128_SHA, new Def(SSL3_TXT_RSA_RC4_128_SHA,
+        CipherNames.put("RC4-SHA", new Def("RC4-SHA",
             SSL_kRSA | SSL_aRSA | SSL_RC4 | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -1022,8 +887,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_EXPORT_WITH_RC2_CBC_40_MD5", "EXP-RC2-CBC-MD5");
         SuiteToOSSL.put("TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5", "EXP-RC2-CBC-MD5");
-        /* Cipher 06 */
-        CipherNames.put(SSL3_TXT_RSA_RC2_40_MD5, new Def(SSL3_TXT_RSA_RC2_40_MD5,
+        CipherNames.put("EXP-RC2-CBC-MD5", new Def("EXP-RC2-CBC-MD5",
             SSL_kRSA | SSL_aRSA | SSL_RC2 | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1034,8 +898,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_WITH_IDEA_CBC_SHA", "IDEA-CBC-SHA");
         SuiteToOSSL.put("TLS_RSA_WITH_IDEA_CBC_SHA", "IDEA-CBC-SHA");
-        /* Cipher 07 */
-        CipherNames.put(SSL3_TXT_RSA_IDEA_128_SHA, new Def(SSL3_TXT_RSA_IDEA_128_SHA,
+        CipherNames.put("IDEA-CBC-SHA", new Def("IDEA-CBC-SHA",
             SSL_kRSA | SSL_aRSA | SSL_IDEA | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -1046,8 +909,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_EXPORT_WITH_DES40_CBC_SHA", "EXP-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_RSA_EXPORT_WITH_DES40_CBC_SHA", "EXP-DES-CBC-SHA");
-        /* Cipher 08 */
-        CipherNames.put(SSL3_TXT_RSA_DES_40_CBC_SHA, new Def(SSL3_TXT_RSA_DES_40_CBC_SHA,
+        CipherNames.put("EXP-DES-CBC-SHA", new Def("EXP-DES-CBC-SHA",
             SSL_kRSA | SSL_aRSA | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1058,8 +920,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_WITH_DES_CBC_SHA", "DES-CBC-SHA");
         SuiteToOSSL.put("TLS_RSA_WITH_DES_CBC_SHA", "DES-CBC-SHA");
-        /* Cipher 09 */
-        CipherNames.put(SSL3_TXT_RSA_DES_64_CBC_SHA, new Def(SSL3_TXT_RSA_DES_64_CBC_SHA,
+        CipherNames.put("DES-CBC-SHA", new Def("DES-CBC-SHA",
             SSL_kRSA | SSL_aRSA | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -1070,8 +931,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_RSA_WITH_3DES_EDE_CBC_SHA", "DES-CBC3-SHA");
         SuiteToOSSL.put("TLS_RSA_WITH_3DES_EDE_CBC_SHA", "DES-CBC3-SHA");
-        /* Cipher 0A */
-        CipherNames.put(SSL3_TXT_RSA_DES_192_CBC3_SHA, new Def(SSL3_TXT_RSA_DES_192_CBC3_SHA,
+        CipherNames.put("DES-CBC3-SHA", new Def("DES-CBC3-SHA",
             SSL_kRSA | SSL_aRSA | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1082,8 +942,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA", "EXP-EDH-DSS-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA", "EXP-EDH-DSS-DES-CBC-SHA");
-        /* Cipher 11 */
-        CipherNames.put(SSL3_TXT_EDH_DSS_DES_40_CBC_SHA, new Def(SSL3_TXT_EDH_DSS_DES_40_CBC_SHA,
+        CipherNames.put("EXP-EDH-DSS-DES-CBC-SHA", new Def("EXP-EDH-DSS-DES-CBC-SHA",
             SSL_kEDH | SSL_aDSS | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1097,9 +956,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA", "EDH-DSS-DES-CBC3-SHA");
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA", "EDH-DSS-DES-CBC3-SHA");
-        /* Cipher 13 */
-        CipherNames.put(SSL3_TXT_EDH_DSS_DES_192_CBC3_SHA,
-            new Def(SSL3_TXT_EDH_DSS_DES_192_CBC3_SHA,
+        CipherNames.put("EDH-DSS-DES-CBC3-SHA", new Def("EDH-DSS-DES-CBC3-SHA",
             SSL_kEDH | SSL_aDSS | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1110,8 +967,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA", "EXP-EDH-RSA-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA", "EXP-EDH-RSA-DES-CBC-SHA");
-        /* Cipher 14 */
-        CipherNames.put(SSL3_TXT_EDH_RSA_DES_40_CBC_SHA, new Def(SSL3_TXT_EDH_RSA_DES_40_CBC_SHA,
+        CipherNames.put("EXP-EDH-RSA-DES-CBC-SHA", new Def("EXP-EDH-RSA-DES-CBC-SHA",
             SSL_kEDH | SSL_aRSA | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1122,8 +978,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DHE_RSA_WITH_DES_CBC_SHA", "EDH-RSA-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_DHE_RSA_WITH_DES_CBC_SHA", "EDH-RSA-DES-CBC-SHA");
-        /* Cipher 15 */
-        CipherNames.put(SSL3_TXT_EDH_RSA_DES_64_CBC_SHA, new Def(SSL3_TXT_EDH_RSA_DES_64_CBC_SHA,
+        CipherNames.put("EDH-RSA-DES-CBC-SHA", new Def("EDH-RSA-DES-CBC-SHA",
             SSL_kEDH | SSL_aRSA | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -1134,9 +989,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA", "EDH-RSA-DES-CBC3-SHA");
         SuiteToOSSL.put("TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA", "EDH-RSA-DES-CBC3-SHA");
-        /* Cipher 16 */
-        CipherNames.put(SSL3_TXT_EDH_RSA_DES_192_CBC3_SHA,
-            new Def(SSL3_TXT_EDH_RSA_DES_192_CBC3_SHA,
+        CipherNames.put("EDH-RSA-DES-CBC3-SHA", new Def("EDH-RSA-DES-CBC3-SHA",
             SSL_kEDH | SSL_aRSA | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1147,8 +1000,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DH_anon_EXPORT_WITH_RC4_40_MD5", "EXP-ADH-RC4-MD5");
         SuiteToOSSL.put("TLS_DH_anon_EXPORT_WITH_RC4_40_MD5", "EXP-ADH-RC4-MD5");
-        /* Cipher 17 */
-        CipherNames.put(SSL3_TXT_ADH_RC4_40_MD5, new Def(SSL3_TXT_ADH_RC4_40_MD5,
+        CipherNames.put("EXP-ADH-RC4-MD5", new Def("EXP-ADH-RC4-MD5",
             SSL_kEDH | SSL_aNULL | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1159,8 +1011,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DH_anon_WITH_RC4_128_MD5", "ADH-RC4-MD5");
         SuiteToOSSL.put("TLS_DH_anon_WITH_RC4_128_MD5", "ADH-RC4-MD5");
-        /* Cipher 18 */
-        CipherNames.put(SSL3_TXT_ADH_RC4_128_MD5, new Def(SSL3_TXT_ADH_RC4_128_MD5,
+        CipherNames.put("ADH-RC4-MD5", new Def("ADH-RC4-MD5",
             SSL_kEDH | SSL_aNULL | SSL_RC4 | SSL_MD5 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -1171,8 +1022,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA", "EXP-ADH-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA", "EXP-ADH-DES-CBC-SHA");
-        /* Cipher 19 */
-        CipherNames.put(SSL3_TXT_ADH_DES_40_CBC_SHA, new Def(SSL3_TXT_ADH_DES_40_CBC_SHA,
+        CipherNames.put("EXP-ADH-DES-CBC-SHA", new Def("EXP-ADH-DES-CBC-SHA",
             SSL_kEDH | SSL_aNULL | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_EXPORT | SSL_EXP40,
             40,
@@ -1183,8 +1033,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DH_anon_WITH_DES_CBC_SHA", "ADH-DES-CBC-SHA");
         SuiteToOSSL.put("TLS_DH_anon_WITH_DES_CBC_SHA", "ADH-DES-CBC-SHA");
-        /* Cipher 1A */
-        CipherNames.put(SSL3_TXT_ADH_DES_64_CBC_SHA, new Def(SSL3_TXT_ADH_DES_64_CBC_SHA,
+        CipherNames.put("ADH-DES-CBC-SHA", new Def("ADH-DES-CBC-SHA",
             SSL_kEDH | SSL_aNULL | SSL_DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_LOW,
             56,
@@ -1195,8 +1044,7 @@ public class CipherStrings {
 
         SuiteToOSSL.put("SSL_DH_anon_WITH_3DES_EDE_CBC_SHA", "ADH-DES-CBC3-SHA");
         SuiteToOSSL.put("TLS_DH_anon_WITH_3DES_EDE_CBC_SHA", "ADH-DES-CBC3-SHA");
-        /* Cipher 1B */
-        CipherNames.put(SSL3_TXT_ADH_DES_192_CBC_SHA, new Def(SSL3_TXT_ADH_DES_192_CBC_SHA,
+        CipherNames.put("ADH-DES-CBC3-SHA", new Def("ADH-DES-CBC3-SHA",
             SSL_kEDH | SSL_aNULL | SSL_3DES | SSL_SHA1 | SSL_SSLV3,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1206,8 +1054,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_RSA_WITH_AES_128_CBC_SHA", "AES128-SHA");
-        /* Cipher 2F */
-        CipherNames.put(TLS1_TXT_RSA_WITH_AES_128_SHA, new Def(TLS1_TXT_RSA_WITH_AES_128_SHA,
+        CipherNames.put("AES128-SHA", new Def("AES128-SHA",
             SSL_kRSA | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1217,8 +1064,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_RSA_WITH_AES_256_CBC_SHA", "AES256-SHA");
-        /* Cipher 35 */
-        CipherNames.put(TLS1_TXT_RSA_WITH_AES_256_SHA, new Def(TLS1_TXT_RSA_WITH_AES_256_SHA,
+        CipherNames.put("AES256-SHA", new Def("AES256-SHA",
             SSL_kRSA | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1231,8 +1077,7 @@ public class CipherStrings {
         SuiteToOSSL.put("TLS_RSA_WITH_AES_256_CBC_SHA256", "AES256-SHA256");
 
         SuiteToOSSL.put("TLS_DH_DSS_WITH_AES_128_CBC_SHA", "DH-DSS-AES128-SHA");
-        /* Cipher 30 */
-        CipherNames.put(TLS1_TXT_DH_DSS_WITH_AES_128_SHA, new Def(TLS1_TXT_DH_DSS_WITH_AES_128_SHA,
+        CipherNames.put("DH-DSS-AES128-SHA", new Def("DH-DSS-AES128-SHA",
             SSL_kDHd | SSL_aDH | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1242,8 +1087,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DH_DSS_WITH_AES_256_CBC_SHA", "DH-DSS-AES256-SHA");
-        /* Cipher 36 */
-        CipherNames.put(TLS1_TXT_DH_DSS_WITH_AES_256_SHA, new Def(TLS1_TXT_DH_DSS_WITH_AES_256_SHA,
+        CipherNames.put("DH-DSS-AES256-SHA", new Def("DH-DSS-AES256-SHA",
             SSL_kDHd | SSL_aDH | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1253,8 +1097,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DH_RSA_WITH_AES_128_CBC_SHA", "DH-RSA-AES128-SHA");
-        /* Cipher 31 */
-        CipherNames.put(TLS1_TXT_DH_RSA_WITH_AES_128_SHA, new Def(TLS1_TXT_DH_RSA_WITH_AES_128_SHA,
+        CipherNames.put("DH-RSA-AES128-SHA", new Def("DH-RSA-AES128-SHA",
             SSL_kDHr | SSL_aDH | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1264,8 +1107,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DH_RSA_WITH_AES_256_CBC_SHA", "DH-RSA-AES256-SHA");
-        /* Cipher 37 */
-        CipherNames.put(TLS1_TXT_DH_RSA_WITH_AES_256_SHA, new Def(TLS1_TXT_DH_RSA_WITH_AES_256_SHA,
+        CipherNames.put("DH-RSA-AES256-SHA", new Def("DH-RSA-AES256-SHA",
             SSL_kDHr | SSL_aDH | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1275,9 +1117,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_AES_128_CBC_SHA", "DHE-DSS-AES128-SHA");
-        /* Cipher 32 */
-        CipherNames.put(TLS1_TXT_DHE_DSS_WITH_AES_128_SHA,
-            new Def(TLS1_TXT_DHE_DSS_WITH_AES_128_SHA,
+        CipherNames.put("DHE-DSS-AES128-SHA", new Def("DHE-DSS-AES128-SHA",
             SSL_kEDH | SSL_aDSS | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1287,9 +1127,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_AES_256_CBC_SHA", "DHE-DSS-AES256-SHA");
-        /* Cipher 38 */
-        CipherNames.put(TLS1_TXT_DHE_DSS_WITH_AES_256_SHA,
-            new Def(TLS1_TXT_DHE_DSS_WITH_AES_256_SHA,
+        CipherNames.put("DHE-DSS-AES256-SHA", new Def("DHE-DSS-AES256-SHA",
             SSL_kEDH | SSL_aDSS | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1301,9 +1139,7 @@ public class CipherStrings {
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256", "DHE-DSS-AES128-SHA256");
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256", "DHE-DSS-AES256-SHA256");
         SuiteToOSSL.put("TLS_DHE_RSA_WITH_AES_128_CBC_SHA", "DHE-RSA-AES128-SHA");
-        /* Cipher 33 */
-        CipherNames.put(TLS1_TXT_DHE_RSA_WITH_AES_128_SHA,
-            new Def(TLS1_TXT_DHE_RSA_WITH_AES_128_SHA,
+        CipherNames.put("DHE-RSA-AES128-SHA", new Def("DHE-RSA-AES128-SHA",
             SSL_kEDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1313,9 +1149,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_RSA_WITH_AES_256_CBC_SHA", "DHE-RSA-AES256-SHA");
-        /* Cipher 39 */
-        CipherNames.put(TLS1_TXT_DHE_RSA_WITH_AES_256_SHA,
-            new Def(TLS1_TXT_DHE_RSA_WITH_AES_256_SHA,
+        CipherNames.put("DHE-RSA-AES256-SHA", new Def("DHE-RSA-AES256-SHA",
             SSL_kEDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1328,8 +1162,7 @@ public class CipherStrings {
         SuiteToOSSL.put("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256", "DHE-RSA-AES256-SHA256");
         SuiteToOSSL.put("TLS_DH_anon_WITH_AES_128_CBC_SHA", "ADH-AES128-SHA");
         SuiteToOSSL.put("SSL_DH_anon_WITH_AES_128_CBC_SHA", "ADH-AES128-SHA");
-        /* Cipher 34 */
-        CipherNames.put(TLS1_TXT_ADH_WITH_AES_128_SHA, new Def(TLS1_TXT_ADH_WITH_AES_128_SHA,
+        CipherNames.put("ADH-AES128-SHA", new Def("ADH-AES128-SHA",
             SSL_kEDH | SSL_aNULL | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             128,
@@ -1339,8 +1172,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DH_anon_WITH_AES_256_CBC_SHA", "ADH-AES256-SHA");
-        /* Cipher 3A */
-        CipherNames.put(TLS1_TXT_ADH_WITH_AES_256_SHA, new Def(TLS1_TXT_ADH_WITH_AES_256_SHA,
+        CipherNames.put("ADH-AES256-SHA", new Def("ADH-AES256-SHA",
             SSL_kEDH | SSL_aNULL | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             256,
@@ -1352,9 +1184,7 @@ public class CipherStrings {
         SuiteToOSSL.put("TLS_DH_anon_WITH_AES_128_CBC_SHA256", "ADH-AES128-SHA256");
         SuiteToOSSL.put("TLS_DH_anon_WITH_AES_256_CBC_SHA256", "ADH-AES256-SHA256");
         SuiteToOSSL.put("TLS_RSA_EXPORT1024_WITH_DES_CBC_SHA", "EXP1024-DES-CBC-SHA");
-        /* Cipher 62 */
-        CipherNames.put(TLS1_TXT_RSA_EXPORT1024_WITH_DES_CBC_SHA,
-            new Def(TLS1_TXT_RSA_EXPORT1024_WITH_DES_CBC_SHA,
+        CipherNames.put("EXP1024-DES-CBC-SHA", new Def("EXP1024-DES-CBC-SHA",
             SSL_kRSA | SSL_aRSA | SSL_DES | SSL_SHA | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -1364,9 +1194,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_RSA_EXPORT1024_WITH_RC4_56_SHA", "EXP1024-RC4-SHA");
-        /* Cipher 64 */
-        CipherNames.put(TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_SHA,
-            new Def(TLS1_TXT_RSA_EXPORT1024_WITH_RC4_56_SHA,
+        CipherNames.put("EXP1024-RC4-SHA", new Def("EXP1024-RC4-SHA",
             SSL_kRSA | SSL_aRSA | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -1376,9 +1204,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA", "EXP1024-DHE-DSS-DES-CBC-SHA");
-        /* Cipher 63 */
-        CipherNames.put(TLS1_TXT_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA,
-            new Def(TLS1_TXT_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA,
+        CipherNames.put("EXP1024-DHE-DSS-DES-CBC-SHA", new Def("EXP1024-DHE-DSS-DES-CBC-SHA",
             SSL_kEDH | SSL_aDSS | SSL_DES | SSL_SHA | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -1388,9 +1214,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_DSS_EXPORT1024_WITH_RC4_56_SHA", "EXP1024-DHE-DSS-RC4-SHA");
-        /* Cipher 65 */
-        CipherNames.put(TLS1_TXT_DHE_DSS_EXPORT1024_WITH_RC4_56_SHA,
-            new Def(TLS1_TXT_DHE_DSS_EXPORT1024_WITH_RC4_56_SHA,
+        CipherNames.put("EXP1024-DHE-DSS-RC4-SHA", new Def("EXP1024-DHE-DSS-RC4-SHA",
             SSL_kEDH | SSL_aDSS | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_EXPORT | SSL_EXP56,
             56,
@@ -1400,9 +1224,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_DHE_DSS_WITH_RC4_128_SHA", "DHE-DSS-RC4-SHA");
-        /* Cipher 66 */
-        CipherNames.put(TLS1_TXT_DHE_DSS_WITH_RC4_128_SHA,
-            new Def(TLS1_TXT_DHE_DSS_WITH_RC4_128_SHA,
+        CipherNames.put("DHE-DSS-RC4-SHA", new Def("DHE-DSS-RC4-SHA",
             SSL_kEDH | SSL_aDSS | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_MEDIUM,
             128,
@@ -1417,110 +1239,108 @@ public class CipherStrings {
         SuiteToOSSL.put("SSL_CK_DES_64_CBC_WITH_MD5", "DES-CBC-MD5");
         SuiteToOSSL.put("SSL_CK_DES_192_EDE3_CBC_WITH_MD5", "DES-CBC3-MD5");
 
-        SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA", name = "ECDHE-ECDSA-AES128-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA", "ECDHE-ECDSA-AES128-SHA");
+        CipherNames.put("ECDHE-ECDSA-AES128-SHA", new Def("ECDHE-ECDSA-AES128-SHA",
             SSL_kECDHE | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA", name = "ECDHE-ECDSA-AES256-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA", "ECDHE-ECDSA-AES256-SHA");
+        CipherNames.put("ECDHE-ECDSA-AES256-SHA", new Def("ECDHE-ECDSA-AES256-SHA",
             SSL_kECDHE | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
-            name = "ECDHE-ECDSA-AES128-SHA256");
-        CipherNames.put(name, new Def(name,
+            "ECDHE-ECDSA-AES128-SHA256");
+        CipherNames.put("ECDHE-ECDSA-AES128-SHA256", new Def("ECDHE-ECDSA-AES128-SHA256",
             SSL_kECDHE | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
-            name = "ECDHE-ECDSA-AES256-SHA384");
-        CipherNames.put(name, new Def(name,
+            "ECDHE-ECDSA-AES256-SHA384");
+        CipherNames.put("ECDHE-ECDSA-AES256-SHA384", new Def("ECDHE-ECDSA-AES256-SHA384",
             SSL_kECDHE | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 384, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA", name = "ECDHE-RSA-AES128-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA", "ECDHE-RSA-AES128-SHA");
+        CipherNames.put("ECDHE-RSA-AES128-SHA", new Def("ECDHE-RSA-AES128-SHA",
             SSL_kECDHE | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA", name = "ECDHE-RSA-AES256-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA", "ECDHE-RSA-AES256-SHA");
+        CipherNames.put("ECDHE-RSA-AES256-SHA", new Def("ECDHE-RSA-AES256-SHA",
             SSL_kECDHE | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256", name = "ECDHE-RSA-AES128-SHA256");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256", "ECDHE-RSA-AES128-SHA256");
+        CipherNames.put("ECDHE-RSA-AES128-SHA256", new Def("ECDHE-RSA-AES128-SHA256",
             SSL_kECDHE | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384", name = "ECDHE-RSA-AES256-SHA384");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384", "ECDHE-RSA-AES256-SHA384");
+        CipherNames.put("ECDHE-RSA-AES256-SHA384", new Def("ECDHE-RSA-AES256-SHA384",
             SSL_kECDHE | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 384, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA", name = "ECDH-ECDSA-AES128-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA", "ECDH-ECDSA-AES128-SHA");
+        CipherNames.put("ECDH-ECDSA-AES128-SHA", new Def("ECDH-ECDSA-AES128-SHA",
             SSL_kECDH | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA", name = "ECDH-ECDSA-AES256-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA", "ECDH-ECDSA-AES256-SHA");
+        CipherNames.put("ECDH-ECDSA-AES256-SHA", new Def("ECDH-ECDSA-AES256-SHA",
             SSL_kECDH | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
-            name = "ECDH-ECDSA-AES128-SHA256");
-        CipherNames.put(name, new Def(name,
+            "ECDH-ECDSA-AES128-SHA256");
+        CipherNames.put("ECDH-ECDSA-AES128-SHA256", new Def("ECDH-ECDSA-AES128-SHA256",
             SSL_kECDH | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
-            name = "ECDH-ECDSA-AES256-SHA384");
-        CipherNames.put(name, new Def(name,
+            "ECDH-ECDSA-AES256-SHA384");
+        CipherNames.put("ECDH-ECDSA-AES256-SHA384", new Def("ECDH-ECDSA-AES256-SHA384",
             SSL_kECDH | SSL_aECDSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 384, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA", name = "ECDH-RSA-AES128-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA", "ECDH-RSA-AES128-SHA");
+        CipherNames.put("ECDH-RSA-AES128-SHA", new Def("ECDH-RSA-AES128-SHA",
             SSL_kECDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA", name = "ECDH-RSA-AES256-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA", "ECDH-RSA-AES256-SHA");
+        CipherNames.put("ECDH-RSA-AES256-SHA", new Def("ECDH-RSA-AES256-SHA",
             SSL_kECDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256", name = "ECDH-RSA-AES128-SHA256");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256", "ECDH-RSA-AES128-SHA256");
+        CipherNames.put("ECDH-RSA-AES128-SHA256", new Def("ECDH-RSA-AES128-SHA256",
             SSL_kECDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384", name = "ECDH-RSA-AES256-SHA384");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384", "ECDH-RSA-AES256-SHA384");
+        CipherNames.put("ECDH-RSA-AES256-SHA384", new Def("ECDH-RSA-AES256-SHA384",
             SSL_kECDH | SSL_aRSA | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 384, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA", "ECDHE-ECDSA-DES-CBC3-SHA");
-        /* Cipher C008 */
-        CipherNames.put(TLS1_TXT_ECDHE_ECDSA_WITH_DES_192_CBC3_SHA,
-            new Def(TLS1_TXT_ECDHE_ECDSA_WITH_DES_192_CBC3_SHA,
+        CipherNames.put("ECDHE-ECDSA-DES-CBC3-SHA", new Def("ECDHE-ECDSA-DES-CBC3-SHA",
             SSL_kECDHE | SSL_aECDSA | SSL_3DES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1530,9 +1350,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA", "ECDH-ECDSA-DES-CBC3-SHA");
-        /* Cipher C003 */
-        CipherNames.put(TLS1_TXT_ECDH_ECDSA_WITH_DES_192_CBC3_SHA,
-            new Def(TLS1_TXT_ECDH_ECDSA_WITH_DES_192_CBC3_SHA,
+        CipherNames.put("ECDH-ECDSA-DES-CBC3-SHA", new Def("ECDH-ECDSA-DES-CBC3-SHA",
             SSL_kECDH | SSL_aECDSA | SSL_3DES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1542,9 +1360,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA", "ECDHE-RSA-DES-CBC3-SHA");
-        /* Cipher C012 */
-        CipherNames.put(TLS1_TXT_ECDHE_RSA_WITH_DES_192_CBC3_SHA,
-            new Def(TLS1_TXT_ECDHE_RSA_WITH_DES_192_CBC3_SHA,
+        CipherNames.put("ECDHE-RSA-DES-CBC3-SHA", new Def("ECDHE-RSA-DES-CBC3-SHA",
             SSL_kECDHE | SSL_aRSA | SSL_3DES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1554,9 +1370,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA", "ECDH-RSA-DES-CBC3-SHA");
-        /* Cipher C00D */
-        CipherNames.put(TLS1_TXT_ECDH_RSA_WITH_DES_192_CBC3_SHA,
-            new Def(TLS1_TXT_ECDH_RSA_WITH_DES_192_CBC3_SHA,
+        CipherNames.put("ECDH-RSA-DES-CBC3-SHA", new Def("ECDH-RSA-DES-CBC3-SHA",
             SSL_kECDH | SSL_aRSA | SSL_3DES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH,
             168,
@@ -1566,9 +1380,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA", "ECDHE-ECDSA-RC4-SHA");
-        /* Cipher C007 */
-        CipherNames.put(TLS1_TXT_ECDHE_ECDSA_WITH_RC4_128_SHA,
-            new Def(TLS1_TXT_ECDHE_ECDSA_WITH_RC4_128_SHA,
+        CipherNames.put("ECDHE-ECDSA-RC4-SHA", new Def("ECDHE-ECDSA-RC4-SHA",
             SSL_kECDHE | SSL_aECDSA | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             128,
@@ -1578,9 +1390,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_RC4_128_SHA", "ECDHE-RSA-RC4-SHA");
-        /* Cipher C011 */
-        CipherNames.put(TLS1_TXT_ECDHE_RSA_WITH_RC4_128_SHA,
-            new Def(TLS1_TXT_ECDHE_RSA_WITH_RC4_128_SHA,
+        CipherNames.put("ECDHE-RSA-RC4-SHA", new Def("ECDHE-RSA-RC4-SHA",
             SSL_kECDHE | SSL_aRSA | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             128,
@@ -1590,9 +1400,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_RC4_128_SHA", "ECDH-ECDSA-RC4-SHA");
-        /* Cipher C002 */
-        CipherNames.put(TLS1_TXT_ECDH_ECDSA_WITH_RC4_128_SHA,
-            new Def(TLS1_TXT_ECDH_ECDSA_WITH_RC4_128_SHA,
+        CipherNames.put("ECDH-ECDSA-RC4-SHA", new Def("ECDH-ECDSA-RC4-SHA",
             SSL_kECDH | SSL_aECDSA | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             128,
@@ -1602,9 +1410,7 @@ public class CipherStrings {
         ));
 
         SuiteToOSSL.put("TLS_ECDH_RSA_WITH_RC4_128_SHA", "ECDH-RSA-RC4-SHA");
-        /* Cipher C00C */
-        CipherNames.put(TLS1_TXT_ECDH_RSA_WITH_RC4_128_SHA,
-            new Def(TLS1_TXT_ECDH_RSA_WITH_RC4_128_SHA,
+        CipherNames.put("ECDH-RSA-RC4-SHA", new Def("ECDH-RSA-RC4-SHA",
             SSL_kECDH | SSL_aRSA | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             128,
@@ -1613,34 +1419,32 @@ public class CipherStrings {
             SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_anon_WITH_AES_128_CBC_SHA", name = "AECDH-AES128-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_anon_WITH_AES_128_CBC_SHA", "AECDH-AES128-SHA");
+        CipherNames.put("AECDH-AES128-SHA", new Def("AECDH-AES128-SHA",
             SSL_kECDHE | SSL_aNULL | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_anon_WITH_AES_256_CBC_SHA", name = "AECDH-AES256-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_anon_WITH_AES_256_CBC_SHA", "AECDH-AES256-SHA");
+        CipherNames.put("AECDH-AES256-SHA", new Def("AECDH-AES256-SHA",
             SSL_kECDHE | SSL_aNULL | SSL_AES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 256, 256, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA", name = "AECDH-DES-CBC3-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA", "AECDH-DES-CBC3-SHA");
+        CipherNames.put("AECDH-DES-CBC3-SHA", new Def("AECDH-DES-CBC3-SHA",
             SSL_kECDHE | SSL_aNULL | SSL_3DES | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP | SSL_HIGH, 168, 168, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
-        SuiteToOSSL.put("TLS_ECDH_anon_WITH_RC4_128_SHA", name = "AECDH-RC4-SHA");
-        CipherNames.put(name, new Def(name,
+        SuiteToOSSL.put("TLS_ECDH_anon_WITH_RC4_128_SHA", "AECDH-RC4-SHA");
+        CipherNames.put("AECDH-RC4-SHA", new Def("AECDH-RC4-SHA",
             SSL_kECDHE | SSL_aNULL | SSL_RC4 | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP, 128, 128, SSL_ALL_CIPHERS, SSL_ALL_STRENGTHS
         ));
 
         SuiteToOSSL.put("TLS_ECDHE_ECDSA_WITH_NULL_SHA", "ECDHE-ECDSA-NULL-SHA");
-        /* Cipher C006 */
-        CipherNames.put(TLS1_TXT_ECDHE_ECDSA_WITH_NULL_SHA,
-            new Def(TLS1_TXT_ECDHE_ECDSA_WITH_NULL_SHA,
+        CipherNames.put("ECDHE-ECDSA-NULL-SHA", new Def("ECDHE-ECDSA-NULL-SHA",
             SSL_kECDHE | SSL_aECDSA | SSL_eNULL | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             0,
@@ -1648,9 +1452,9 @@ public class CipherStrings {
             SSL_ALL_CIPHERS,
             SSL_ALL_STRENGTHS
         ));
+
         SuiteToOSSL.put("TLS_ECDHE_RSA_WITH_NULL_SHA", "ECDHE-RSA-NULL-SHA");
-        /* Cipher C010 */
-        CipherNames.put(TLS1_TXT_ECDHE_RSA_WITH_NULL_SHA, new Def(TLS1_TXT_ECDHE_RSA_WITH_NULL_SHA,
+        CipherNames.put("ECDHE-RSA-NULL-SHA", new Def("ECDHE-RSA-NULL-SHA",
             SSL_kECDHE | SSL_aRSA | SSL_eNULL | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             0,
@@ -1658,10 +1462,9 @@ public class CipherStrings {
             SSL_ALL_CIPHERS,
             SSL_ALL_STRENGTHS
         ));
+
         SuiteToOSSL.put("TLS_ECDH_ECDSA_WITH_NULL_SHA", "ECDH-ECDSA-NULL-SHA");
-        /* Cipher C001 */
-        CipherNames.put(TLS1_TXT_ECDH_ECDSA_WITH_NULL_SHA,
-            new Def(TLS1_TXT_ECDH_ECDSA_WITH_NULL_SHA,
+        CipherNames.put("ECDH-ECDSA-NULL-SHA", new Def("ECDH-ECDSA-NULL-SHA",
             SSL_kECDH | SSL_aECDSA | SSL_eNULL | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             0,
@@ -1669,9 +1472,9 @@ public class CipherStrings {
             SSL_ALL_CIPHERS,
             SSL_ALL_STRENGTHS
         ));
+
         SuiteToOSSL.put("TLS_ECDH_RSA_WITH_NULL_SHA", "ECDH-RSA-NULL-SHA");
-        /* Cipher C00B */
-        CipherNames.put(TLS1_TXT_ECDH_RSA_WITH_NULL_SHA, new Def(TLS1_TXT_ECDH_RSA_WITH_NULL_SHA,
+        CipherNames.put("ECDH-RSA-NULL-SHA", new Def("ECDH-RSA-NULL-SHA",
             SSL_kECDH | SSL_aRSA | SSL_eNULL | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             0,
@@ -1679,9 +1482,9 @@ public class CipherStrings {
             SSL_ALL_CIPHERS,
             SSL_ALL_STRENGTHS
         ));
+
         SuiteToOSSL.put("TLS_ECDH_anon_WITH_NULL_SHA", "AECDH-NULL-SHA");
-        /* Cipher C015 */
-        CipherNames.put(TLS1_TXT_ECDH_anon_WITH_NULL_SHA, new Def(TLS1_TXT_ECDH_anon_WITH_NULL_SHA,
+        CipherNames.put("AECDH-NULL-SHA", new Def("AECDH-NULL-SHA",
             SSL_kECDHE | SSL_aNULL | SSL_eNULL | SSL_SHA | SSL_TLSV1,
             SSL_NOT_EXP,
             0,
